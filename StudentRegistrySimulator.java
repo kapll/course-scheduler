@@ -22,10 +22,10 @@ public class StudentRegistrySimulator {
 		//scheduler object
 		Scheduler schedule = new Scheduler(registry.getCourses());
 		
-		System.out.println("Course Scheduler created by Besar Kapllani")
-		System.out.println("https://github.com/kapll/course-scheduler")
-		System.out.println("Note: This program is merely a personal project and not intended for actual use")
-		system.out.println("Type \"HELP\" for a list of commands.")
+		System.out.println("Course Scheduler created by Besar Kapllani");
+		System.out.println("https://github.com/kapll/course-scheduler");
+		System.out.println("Note: This program is merely a personal project and not intended for actual use");
+		system.out.println("Type \"HELP\" for a list of commands.");
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.print(">");
@@ -42,25 +42,25 @@ public class StudentRegistrySimulator {
 			
 			//HELP
 			else if (command.equalsIgnoreCase("HELP")){
-				System.out.println("Note: commands are case insensitive")
-				System.out.println("\"list\" or \"l\" - Prints a list of all students currently in the registry")
-				System.out.println("\"quit\" or \"q\" - Exits the program")
-				System.out.println("\"reg\" - Registers a student into the university, expects two arguments: a name and 5 digit student id")
-				System.out.println("\"del\" - Removes a student from the university, expects: a student id")
-				System.out.println("\"addc\" - Adds a student to a course, expects: a student id and a course code")
-				System.out.println("\"dropc\" - Removes a student from a course, expects: a student id and a course code")
-				System.out.println("\"pac\" - Prints all courses offered by the university")
-				System.out.println("\"pcl\" - Prints a class list, expects: a course code")
-				System.out.println("\"pgr\" - Prints a grade report of all the students enrolled in a class, expects: a course code")
-				System.out.println("\"psc\" - Prints all the courses a student is currently enrolled in, expects: a student id")
-				System.out.println("\"pst\" - Prints a student's transcript, expects: a student id")
-				System.out.println("\"sfg\" - Sets the final grade of a student in a course, expects: a course code, a student id and a numeric grade")
-				System.out.println("\"scn\" - Sorts class enrollment by name, expects: a course code")
-				System.out.println("\"sci\" - Sorts class enrollment by student id, expects: a course code")
-				System.out.println("\"sch\" - Schedules a course during the week, expects: a course code, a day of the week, a start time, and a duration")
-				System.out.println("Note: sch can be used with only a course code and a duration for automatic scheduling")
-				System.out.println("\"csch\" - Remove a course from the weekly schedule, expects: a course code")
-				System.out.println("\"psch\" - Prints the weekly schedule")
+				System.out.println("Note: commands are case insensitive");
+				System.out.println("\"list\" or \"l\" - Prints a list of all students currently in the registry");
+				System.out.println("\"quit\" or \"q\" - Exits the program");
+				System.out.println("\"reg\" - Registers a student into the university, expects two arguments: a name and 5 digit student id");
+				System.out.println("\"del\" - Removes a student from the university, expects: a student id");
+				System.out.println("\"addc\" - Adds a student to a course, expects: a student id and a course code");
+				System.out.println("\"dropc\" - Removes a student from a course, expects: a student id and a course code");
+				System.out.println("\"pac\" - Prints all courses offered by the university");
+				System.out.println("\"pcl\" - Prints a class list, expects: a course code");
+				System.out.println("\"pgr\" - Prints a grade report of all the students enrolled in a class, expects: a course code");
+				System.out.println("\"psc\" - Prints all the courses a student is currently enrolled in, expects: a student id");
+				System.out.println("\"pst\" - Prints a student's transcript, expects: a student id");
+				System.out.println("\"sfg\" - Sets the final grade of a student in a course, expects: a course code, a student id and a numeric grade");
+				System.out.println("\"scn\" - Sorts class enrollment by name, expects: a course code");
+				System.out.println("\"sci\" - Sorts class enrollment by student id, expects: a course code");
+				System.out.println("\"sch\" - Schedules a course during the week, expects: a course code, a day of the week, a start time, and a duration");
+				System.out.println("Note: sch can be used with only a course code and a duration for automatic scheduling");
+				System.out.println("\"csch\" - Remove a course from the weekly schedule, expects: a course code");
+				System.out.println("\"psch\" - Prints the weekly schedule");
 			}
 
 			//LIST
