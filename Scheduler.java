@@ -1,6 +1,3 @@
-//Besar Kapllani - 500943601
-
-
 import java.util.TreeMap;
 import java.util.Random;
 
