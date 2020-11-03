@@ -1,6 +1,3 @@
-//Besar Kapllani - 500943601
-
-
 import java.util.ArrayList;
 
 public class Student implements Comparable<Student>{
