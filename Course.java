@@ -1,6 +1,3 @@
-//Besar Kapllani - 500943601
-
-
 public class Course {
 	private String code;
 	private String name;
