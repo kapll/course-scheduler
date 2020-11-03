@@ -25,7 +25,7 @@ public class StudentRegistrySimulator {
 		System.out.println("Course Scheduler created by Besar Kapllani");
 		System.out.println("https://github.com/kapll/course-scheduler");
 		System.out.println("Note: This program is merely a personal project and not intended for actual use");
-		system.out.println("Type \"HELP\" for a list of commands.");
+		System.out.println("Type \"HELP\" for a list of commands.");
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.print(">");
