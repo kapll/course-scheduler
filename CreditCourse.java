@@ -1,6 +1,3 @@
-//Besar Kapllani - 500943601
-
-
 public class CreditCourse extends Course {
     private String semester;
     public double grade;
